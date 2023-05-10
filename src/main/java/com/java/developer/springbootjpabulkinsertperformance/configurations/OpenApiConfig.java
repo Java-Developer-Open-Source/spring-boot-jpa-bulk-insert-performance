@@ -15,7 +15,7 @@ public class OpenApiConfig {
     return new OpenAPI()
         .components(new Components())
         .info(new Info().title("Spring Boot Jpa Bulk Insert Performance Service Application API")
-            .description("Authentication Service Application"));
+            .description("Spring Boot Jpa Bulk Insert Performance Service Application"));
   }
 
 }
